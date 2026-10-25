@@ -39,7 +39,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c0f3d03b88be7afaa2678a47d53ead489820aa90cda1014564056ab08253cac7",
+      "sha256": "72d47d3cea71f0c3325611c3b09490bbf15e5b72c25c15882ce1c373d9d13d89",
       "rule": "exact-file",
       "keys": [
         "README.md"

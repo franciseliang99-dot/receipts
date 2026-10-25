@@ -13,6 +13,7 @@ against what the verifier proves on that run.
 Track 02 · *The Agent That Can Explain Why*.
 
 Demo video (2:34): [receipts-demo.mp4](https://github.com/franciseliang99-dot/receipts/releases/download/v1.0/receipts-demo.mp4), attached to the [v1.0 release](https://github.com/franciseliang99-dot/receipts/releases/tag/v1.0). Narration is synthetic text-to-speech.
+Slide deck: [receipts-deck.pdf](https://github.com/franciseliang99-dot/receipts/releases/download/v1.0/receipts-deck.pdf) (12 slides).
 
 ```
 project ──DEPENDS_ON──> optimist@0.6.1 ──DEPENDS_ON──> minimist@0.0.10 ──IN_RANGE──> GHSA-xvch-5gv4-984h
