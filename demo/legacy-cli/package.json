@@ -1,0 +1,11 @@
+{
+  "name": "legacy-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo target: a small CLI on old argument parsers",
+  "main": "cli.js",
+  "dependencies": {
+    "mkdirp": "0.5.5",
+    "optimist": "0.6.1"
+  }
+}

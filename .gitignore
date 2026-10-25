@@ -1,0 +1,22 @@
+# Credentials of any kind
+*.key
+*.pem
+*.p12
+.env
+.env.*
+!/.env.example
+credentials*
+secret*
+token*
+
+# Local drafts and system noise
+/scratch/
+*.local.md
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Receipts: local run artefacts (snapshots of live queries, memory store, rendered reports)
+/runs/
+/node_modules/

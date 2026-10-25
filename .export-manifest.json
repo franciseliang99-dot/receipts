@@ -1,0 +1,476 @@
+{
+  "schema": 3,
+  "entry_id": "entries/open-agent",
+  "source": "entry-repo",
+  "signature_digest": "aad8cca59d952ded86c75dda8d36290bab4edf310204f283f8171f8ab506d5c4",
+  "file_count": 53,
+  "files": [
+    {
+      "path": ".cursorignore",
+      "sha256": "3800f7372d815fcf29714406a37240485bfd5978fcf0d2985f9c69f7228e01b0",
+      "rule": "exact-file",
+      "keys": [
+        ".cursorignore"
+      ]
+    },
+    {
+      "path": ".env.example",
+      "sha256": "eb3544c11561e175ab3c71466ab2f5f99c3e89257e1e456498fa8d0e9773b194",
+      "rule": "exact-file",
+      "keys": [
+        ".env.example"
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ae950e2421ed701ad9dc23a06a27518035f1e7393801e0a9193f56b4d4861075",
+      "rule": "exact-file",
+      "keys": [
+        ".gitignore"
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "63e29fc8231b53757a77fbc371071c91d768621efa1e68b1d9ff8d1bb7c4a0ef",
+      "rule": "exact-file",
+      "keys": [
+        "LICENSE"
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "15a7a2071948a961d7aeff218a62f708d85dfb4f27e665f6adedd57f02fa096a",
+      "rule": "exact-file",
+      "keys": [
+        "README.md"
+      ]
+    },
+    {
+      "path": "SPONSORS.md",
+      "sha256": "eb9def7556b2632c900520cd2ce89abe1abc6e15cd2b9551693ef10ad47a40b5",
+      "rule": "exact-file",
+      "keys": [
+        "SPONSORS.md"
+      ]
+    },
+    {
+      "path": "demo/legacy-cli/cli.js",
+      "sha256": "2d9c7a270c949e7901e338e03dd05c1c45d07aee77a2048f7c2e380ff4852784",
+      "rule": "dir-code-ext",
+      "keys": [
+        "demo/",
+        ".js"
+      ]
+    },
+    {
+      "path": "demo/legacy-cli/package-lock.json",
+      "sha256": "290f337b27ff9fb178ad3f3f1e39d4a711e918b3f6160c64c51cec259debc2a5",
+      "rule": "dir-code-ext",
+      "keys": [
+        "demo/",
+        ".json"
+      ]
+    },
+    {
+      "path": "demo/legacy-cli/package.json",
+      "sha256": "07f39ae8bdea4fe2f62e0d7858afe0e3e208505a219061e37a21ae341f5b16f4",
+      "rule": "dir-code-ext",
+      "keys": [
+        "demo/",
+        ".json"
+      ]
+    },
+    {
+      "path": "demo/patched-cli/cli.js",
+      "sha256": "6abef0cb53235d4b447f91ea07f0e5ff9e4a80a83534cabb82e2b925a279bc3e",
+      "rule": "dir-code-ext",
+      "keys": [
+        "demo/",
+        ".js"
+      ]
+    },
+    {
+      "path": "demo/patched-cli/package-lock.json",
+      "sha256": "39ca6a7cd5855176de3646cbd60a77aaa94d69743bbc76584430d3341941a6cd",
+      "rule": "dir-code-ext",
+      "keys": [
+        "demo/",
+        ".json"
+      ]
+    },
+    {
+      "path": "demo/patched-cli/package.json",
+      "sha256": "2c08367ee8d3f21c3cc3bff323ebc211703b2b38868d45a6871cbef2a3d88ddd",
+      "rule": "dir-code-ext",
+      "keys": [
+        "demo/",
+        ".json"
+      ]
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "78f92351c1dddaea6eb2e32349a346629ab6b7e49d5a61ce388b3e03a74a49f4",
+      "rule": "exact-file",
+      "keys": [
+        "package-lock.json"
+      ]
+    },
+    {
+      "path": "package.json",
+      "sha256": "270ab0d34a831c61b76a37e28021dc3d08484ad80ef4480830d23df8c0df0738",
+      "rule": "exact-file",
+      "keys": [
+        "package.json"
+      ]
+    },
+    {
+      "path": "src/build.ts",
+      "sha256": "e84892e4387f00281e966dbadfc514d4c4695d240f09b368ecdba680f68234a1",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "d448b1bafd9b45102f202841a06e88b61c256d2b43f3584a264020650d65fcb2",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/config.ts",
+      "sha256": "09fd1195610cbce7b424d2f6b743e6230ca6448c1b03e19821b074825778dfd2",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/explain.ts",
+      "sha256": "5a0704d9340641f3d84097bd9ddb2407a69b8e8d664f868bcd8cd0f3cdf52c8f",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/graph.ts",
+      "sha256": "15481149cbd2dc675e688e12be56f06c569df61bc6dfc25fa20db39638f7f3ab",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/investigator.ts",
+      "sha256": "43e3b8e602d14fc18e431f91160c246be81b610b9b49bb2b3d91f0cd49d95149",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/jcs.ts",
+      "sha256": "25a2520318caa6d203974ed6b0be6d4b1814bf10ecdd68dd1158c6c9f0f9e194",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/jsonPointer.ts",
+      "sha256": "e6ac7e8f0928dfe3a874cab6b80dc099fb750abe2e1a809058bcfe483c8241f2",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/llm.ts",
+      "sha256": "151e278c4e12d9a6001a2f7f59fb172ecfd106bd9272802b1e1cb646cddf6970",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/lockfile.ts",
+      "sha256": "7477898b2f43af7abb35190b5ee0f22a4b782133c88cc45bb1767cc4071da6f3",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/memory.ts",
+      "sha256": "04172f0c27dd4a0686e6620d94793054843af8f660321d9c1148e7283c2d099c",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/osvRange.ts",
+      "sha256": "eed8438ae822aad0d32835d5476a7adda680e1e02d174c15633c9fdc2e5fbadc",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/render.ts",
+      "sha256": "c957243677edf77cd0da92dc972e22dcb75a423b102f6239ef0ab4b14942e242",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/semver.ts",
+      "sha256": "2ec5637bac3fceb48420b2e55edb225bfbfa730d8a6bd21c3972e789c2d3419f",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/snapshot.ts",
+      "sha256": "e102733b86b9cd0315f7fb7f17fde903d1915522a5a47bea206b6406aec01566",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/verifier.ts",
+      "sha256": "1b8ddb35582d779e239e609399a4117bf78b3a4b29f0ded0db08cf7024889434",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "src/zetaris.ts",
+      "sha256": "d03627da4cd529242497352b5f716fe1158218bac2b594cef293cbb3f15bf552",
+      "rule": "dir-code-ext",
+      "keys": [
+        "src/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/explain.test.ts",
+      "sha256": "431da90c1c05ecf1d4685362baab5dc40c486244c1c701ff76548f001815b864",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/fixtures/world.ts",
+      "sha256": "2eb7d50ea98529bf2d81e07993b4d20753ae6ffbdc6977e6489c8263e3315ebb",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/live-layer.test.ts",
+      "sha256": "b896e4494d59dfc8ad6149342053f719edd3a85031aca36b63d6be1ed6574062",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/lockfile.test.ts",
+      "sha256": "b6ec4c2d54c143d5b0488555b1295bcc378ea92b24ae8182f2d31058cfb596a0",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/osvRange.test.ts",
+      "sha256": "6c0afe29cb282f76cf4292c7e04dccf2f56ab8e33921c6c4160b0f6e03232e41",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/semver.test.ts",
+      "sha256": "0e39738962e04469bbec672db2ac3f578f8e5d83ab0285351045de947499a444",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "test/verifier.test.ts",
+      "sha256": "5c3fefb7e1fbfdbff20f6b662aa8c552d731f6a9eb991f2056bf3ea92a715813",
+      "rule": "dir-code-ext",
+      "keys": [
+        "test/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "14015f7fd7edb158e7f8afc4ac2c36139d81b7e04f56c2f79c06264ccf54b74d",
+      "rule": "exact-file",
+      "keys": [
+        "tsconfig.json"
+      ]
+    },
+    {
+      "path": "vendor/hmem/LICENSE",
+      "sha256": "63e29fc8231b53757a77fbc371071c91d768621efa1e68b1d9ff8d1bb7c4a0ef",
+      "rule": "exact-file",
+      "keys": [
+        "vendor/hmem/LICENSE"
+      ]
+    },
+    {
+      "path": "vendor/hmem/SOURCE.md",
+      "sha256": "9ba4e6152262b13662e1c6f050db2a93aaf5d8ed02cef4095244a6f5915e01fb",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".md"
+      ]
+    },
+    {
+      "path": "vendor/hmem/conformance/runner.ts",
+      "sha256": "d6724860761c4846a0bce3080d25115bcb0ba1d9d0d2e933438f5683a7a9b7c5",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/conformance/vectors/vectors.json",
+      "sha256": "10afb5a07233466576ba6feb0d88408488909ba2721ee9157fdb932132917029",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".json"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/conflictDetection.ts",
+      "sha256": "432e8b86ed0b5883d435e5ab4a12160d1f40d194cbdb4c119d3b710cbb0301a3",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/dreaming.ts",
+      "sha256": "d12594d667ec068690c6b81e020cd62ade91671316a1ab9b529259304aceb009",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/embeddings.ts",
+      "sha256": "89433327ee1075a8049bc8518cdf5cabf51ad67802e192266841cdee727b6d10",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/index.ts",
+      "sha256": "9c481889afcdd70086d3bb3470842fa2330215e4d7760d826d103accdf8c1cdf",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/memoryMining.ts",
+      "sha256": "6072693d654ea1c34a9adbf6ce80101eeb1eeb56273d264f6ceb4859ffde6562",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/memoryRetrieval.ts",
+      "sha256": "4fe120b1b64fe7225b9b28fda59514c114de9e885d22c5bf0aa035788b6d629d",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/memoryStore.ts",
+      "sha256": "a1eac8de8c0fde0e503e1212f3cb98295a661c2a8bad93ad82e51985885e6fd0",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/sleepCycle.ts",
+      "sha256": "3ce0d4f3233d0ad7c133a2cbaf39b6122467022e0aa378a160a0d463e2264cef",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/trustLedger.ts",
+      "sha256": "263253dd3342c488ce773d7e728d77aec983c1833873602b59ce1a6c7999e20e",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    },
+    {
+      "path": "vendor/hmem/src/types.ts",
+      "sha256": "becb504870a67646a20a421ffe04d8732db63418393423d2186c074b182f54c7",
+      "rule": "dir-code-ext",
+      "keys": [
+        "vendor/hmem/",
+        ".ts"
+      ]
+    }
+  ]
+}

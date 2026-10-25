@@ -1,0 +1,24 @@
+{
+  "name": "receipts",
+  "version": "0.1.0",
+  "description": "An agent that answers 'are we affected, and why?' with an explanation graph whose every edge a deterministic verifier can re-check.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=23.6"
+  },
+  "bin": {
+    "receipts": "src/cli.ts"
+  },
+  "scripts": {
+    "test": "tsx --test test/*.test.ts",
+    "hmem:conformance": "cd vendor/hmem/conformance && HMEM_IMPL=$PWD/../src/index.ts tsx runner.ts",
+    "receipts": "tsx src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

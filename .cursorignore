@@ -1,0 +1,7 @@
+# Internal notes and local run data stay off Cursor's servers.
+HANDOFF.md
+DESIGN.md
+runs/
+node_modules/
+.env
+.env.*
